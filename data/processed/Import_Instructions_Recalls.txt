@@ -1,0 +1,247 @@
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 1 of 12 
+ 
+Follow these instructions
+1 
+to download the Office of Defects Investigation (ODI) Recalls 
+data and to import it into Microsoft Access. ODI Recalls data is available in the 
+compressed data (ZIP) format on the ODI website. 
+ 
+The system characteristics of your computer or device will affect the speed and 
+performance of the processing needed to accomplish the downloading and importing of 
+the Recalls data. At least 120MB of available disk space is required. This space 
+requirement will increase as more data is continually added to the ODI database. 
+ 
+Detailed field descriptions of the data file are given in Appendix A. 
+ 
+Note: For consistency , the original file name FLAT_RCL is used throughout these 
+instructions. 
+ 
+ 
+1. At the URL: http://www-odi.nhtsa.dot.gov/downloads/ 
+ 
+2. Select the FLAT_RCL.zip file. 
+ 
+3. Select Save. 
+ 
+ 
+ 
+ 
+1 
+The PDF version of this document is located at: 
+http://www-odi.nhtsa.dot.gov/downloads/folders/Recalls/Import_Instructions_Recalls.pdf
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 2 of 12 
+ 
+Select a destination folder for the file in the Save As box and then select Save. 
+(This is a large file and may take a few minutes to download.) 
+ 
+ 
+ 
+4. If an earlier version of the file exists in the destination folder, the following prompt will 
+appear: 
+ 
+ 
+ 
+Select Yes to replace the existing file or No to cancel the save. 
+ 
+ 
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 3 of 12 
+ 
+5. Once the download is complete, select Close. 
+ 
+ 
+ 
+ 
+6. Locate the zip file FLAT_RCL.zip in the destination folder chosen in step 4 and then 
+extract the FLAT_RCL.txt file to the desired folder. 
+ 
+The unzipped file of Recalls d ata is now ready to be imported into a Microsoft 
+Access database. 
+ 
+7. Open Microsoft Access by selecting Start > All Programs > Microsoft Office > 
+Microsoft Access. 
+ 
+ 
+ 
+ 
+Note: The following screenshots are from the Microsoft Office 2010 version of Access. 
+Other versions will have similar views and functionality, but may not look exactly the 
+same. Use the toolbars or help feature if you have difficulty locating a function. 
+Start 
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 4 of 12 
+ 
+8. Select Blank database and accept the default File Name ‘DatabaseN.accdb' (save 
+to a folder of your choice) and then select Create. 
+ 
+ 
+ 
+9. Right-click the Table 1 tab and click Close in the pop-up menu. 
+10. 
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 5 of 12 
+ 
+Select the External Data tab and click Text File. 
+ 
+ 
+ 
+11. Click Browse… to search for the FLAT_RCL.txt file. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 6 of 12 
+ 
+12. When the File Open screen comes up: 
+ 
+a. Select Text Files using the drop-down arrow for File type at the bottom, if not 
+already selected. 
+b. Browse to the folder containing the extracted FLAT_RCL.txt file. 
+c. Select the FLAT_RCL.txt file and then select Open. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 7 of 12 
+ 
+13. Select Import the source data into a new table in the current Database and then 
+select OK. 
+ 
+ 
+ 
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 8 of 12 
+ 
+14. Select Delimited and then select Next >. 
+ 
+ 
+ 
+ 
+15. Select Tab as the delimiter since the data are stored as tab delimited quoted text 
+and then select Next >. 
+ 
+ 
+ 
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 9 of 12 
+ 
+16. Using the horizontal scroll arrow or slider, scroll right and select Field20. Change 
+the Data Type to Memo using the drop-down arrow, if it isn’t already set to Memo. 
+ 
+Perform the same action (change Data Type to Memo where needed) for Field21, 
+Field22, and Field23. 
+ 
+Change the Data Type to Text for Field24 and then select Next >. 
+ 
+ 
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 10 of 12 
+ 
+17. Select Let Access add primary key and then select Next >. 
+ 
+18. Select Finish. It may take 5 minutes or longer, depending on your system 
+characteristics. 
+ 
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 11 of 12 
+ 
+ 
+ 
+19. Select Close to complete the import process. 
+ 
+ 
+ 
+You can now view all the data in Access. 
+
+Importing Recalls data into MS Access 
+Last Updated: February 2014 Page 12 of 12 
+ 
+APPENDIX A - Recall File Characteristics 
+ 
+The RECALL file contains all NHTSA safety-related defect and compliance 
+campaigns since 1967. 
+ 
+File characteristics: 
+ 
+- All the records are TAB delimited 
+- All dates are in YYYYMMDD format 
+ 
+- Maximum Record length: 8759 
+ 
+Change log: 
+1.Field# 23 added as of Sept. 14, 2007 
+2.Changed flat file extension from .lst to .txt as of Sept. 14, 2007 
+3.Field# 24 added as of March 14, 2008 
+ 
+Last Updated March 14, 2008 
+ 
+ 
+FIELDS: 
+======= 
+ 
+Field# Name Type/Size Description 
+------ --------- --------- ------------------------------------ 
+1 RECORD_ID NUMBER(9) RUNNING SEQUENCE NUMBER, WHICH 
+ UNIQUELY IDENTIFIES THE RECORD. 
+2 CAMPNO CHAR(12) NHTSA CAMPAIGN NUMBER 
+3 MAKETXT CHAR(25) VEHICLE/EQUIPMENT MAKE 
+4 MODELTXT CHAR(256) VEHICLE/EQUIPMENT MODEL 
+5 YEARTXT CHAR(4) MODEL YEAR, 9999 IF UNKNOWN or N/A 
+6 MFGCAMPNO CHAR(20) MFR CAMPAIGN NUMBER 
+7 COMPNAME CHAR(256) COMPONENT DESCRIPTION 
+8 MFGNAME CHAR(40) MANUFACTURER THAT FILED 
+ DEFECT/NONCOMPLIANCE REPORT 
+9 BGMAN CHAR(8) BEGIN DATE OF MANUFACTURING 
+10 ENDMAN CHAR(8) END DATE OF MANUFACTURING 
+11 RCLTYPECD CHAR(4) VEHICLE, EQUIPMENT OR TIRE REPORT 
+12 POTAFF NUMBER(9) POTENTIAL NUMBER OF UNITS AFFECTED 
+13 ODATE CHAR(8) DATE OWNER NOTIFIED BY MFR 
+14 INFLUENCED_BY CHAR(4) RECALL INITIATOR (MFR/OVSC/ODI) 
+15 MFGTXT CHAR(40) MANUFACTURERS OF RECALLED 
+ VEHICLES/PRODUCTS 
+16 RCDATE CHAR(8) REPORT RECEIVED DATE 
+17 DATEA CHAR(8) RECORD CREATION DATE 
+18 RPNO CHAR(3) REGULATION PART NUMBER 
+19 FMVSS CHAR(10) FEDERAL MOTOR VEHICLE SAFETY 
+ STANDARD NUMBER 
+20 DESC_DEFECT CHAR(2000) DEFECT SUMMARY 
+21 CONEQUENCE_DEFECT CHAR(2000) CONSEQUENCE SUMMARY 
+22 CORRECTIVE_ACTION CHAR(2000) CORRECTIVE SUMMARY 
+23 NOTES CHAR(2000) RECALL NOTES 
+24 RCL_CMPT_ID CHAR(27) NUMBER THAT UNIQUELY IDENTIFIES A 
+ RECALLED COMPONENT.

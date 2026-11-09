@@ -1,0 +1,147 @@
+Technical Service Bulletin
+/C0034
+/C0034
+Page 1 of 3
+The information contained in this bulletin is subject to change. For the latest version of this document, go to the Mitsubishi Dealer Link,
+MEDIC, or the Mitsubishi Service Information website (www.mitsubishitechinfo.com).
+Copyright 2018, Mitsubishi Motors North America, Inc. Continued
+(4669)
+SUBJECT :
+LOAD CARRYING CAPACITY REDUCED LABEL −
+REVISED
+No: TSB−18−00−003
+DATE: April 2018
+MODEL: All Models
+CIRCULATE TO: [ ] GENERAL MANAGER [ X ] PARTS MANAGER [ X ] TECHNICIAN
+[ X ] SERVICE ADVISOR [ X ] SERVICE MANAGER [ ] WARRANTY PROCESSOR [ X ] SALES MANAGER
+This bulletin supercedes TSB−17−00−001, issued March, 2017, to add updated information.
+Revisions are italicized and indicated by /C0065.
+PURPOSE
+National Highway Traffic Safety Administration (NHTSA) regulations require a label showing the
+reduction in load carrying capacity be affixed to vehicles when the total net weight of accessories is
+more than 1.5 percent of the vehicle's gross vehicle weight rating (GVWR) or 100 lbs. whichever is
+less (accessory weight threshold). The label is only required if accessories are added before, or at
+the time the vehicle is first sold. It is not required if accessories are installed by the dealer after the
+vehicle is first sold.
+Under the NHTSA requirement, it is the dealer's responsibility to calculate the total weight of
+accessories installed before the first retail sale and to ensure compliance with the requirement.
+AFFECTED VEHICLES
+All U.S. models with accessories added.
+PORT INSTALLED ACCESSORIES
+MMNA will provide the net weight of accessories installed by port processors on the vehicle invoice
+and Monroney label. If port installed accessories exceed the accessory weight threshold (1.5% of
+GVWR or 100 lbs, whichever is less), MMNA port processors will affix a Load Carrying Capacity
+Reduced label to the vehicle as required by the regulation. If a dealer installs additional accessories,
+they must:
+1. Perform the calculations as explained in this TSB.
+2. Fill out the Load Carrying Capacity Reduced label.
+3. Affix it to the vehicle COVERING any port installed label.
+The following statement will be added to the invoice of all vehicles when accessories are port installed,
+regardless of whether or not the accessory weight threshold is exceeded:
+ALERT: PORT INSTALLED ACCESSORIES NET CUMULATIVE WEIGHT IS XX.X LBS. ADD TO
+THIS AMOUNT THE WEIGHT OF ANY DEALER INSTALLED ACCESSORIES AND DETERMINE
+YOUR NEED TO APPLY A “REDUCED CARGO CARRYING CAPACITY” LABEL REQUIRED BY FMVSS
+571.110.
+The net “Cumulative Accessory Weight” will also be shown at the bottom of the Monroney label if the
+accessory weight threshold is exceeded. Port processors will affix a Load Carrying Capacity Reduced
+label to a vehicle only if the accessory weight threshold is exceeded and indicated on the Monroney
+label.
+NOTE: Dealers should always refer to the vehicle invoice when they add accessories to any vehicle where
+no weight is listed on the Monroney.
+ /C0034
+ /C0034
+ /C0034
+Page 2 of 3
+TSB−18−00−003
+EQUIPMENT
+You will need the following equipment to complete this procedure.
+/C0068Permanent, black, fine tipped marking pen (e.g. Sharpie).
+/C0068A scale suitable to weigh components to the ounce. The scale must be capable of repeatedly
+weighing “0 - 350 pounds within + 1% of accuracy.”
+/C0068Vehicle Load Carrying Capacity Reduced label. Refer to the Parts Information section later in this
+TSB for information.
+PROCEDURE
+Determine the net weight of any accessories added to the vehicle (components installed minus
+components removed) by adding the net weight of dealer installed accessories and the net weight of
+port installed accessories listed on the vehicle invoice.
+CALCULATE THE WEIGHT TO BE DISPLAYED
+1. Calculate the weight threshold of accessories for the vehicle (1.5% of the GVWR):
+Refer to the FMVSS certification label located on the lower driver's “B” pillar and note the GVWR.
+To calculate the accessory weight threshold, multiply the GVWR by 0.015.
+Example: GVWR x 0.015 = weight threshold for accessories
+Using a 2018 Outlander (3L engine) as an example:
+5005 lbs. x 0.015 = 75.075 lbs.
+Round UP this weight to the next 0.1 lbs for one decimal place (75.075 lbs becomes 75.1 lbs).
+Therefore, if the total net weight of accessories added to this Outlander is greater than 75.1 lbs, you
+would be required to affix a Load Carrying Capacity Reduced label to the vehicle.
+NOTE: If the total net weight of accessories is 100 lbs or more, the weight reduction label is required regardless
+of GVWR.
+2. Calculate the weight of all accessories added to the vehicle:
+a. Weigh each accessory being installed on the vehicle. Convert ounces to X.X lbs (one decimal
+place) using the formula; ounces ÷ 16 X 100 = X.X lbs. When calculated, if the conversion displays
+more than one decimal place, round UP to the next 0.1 lbs (0.85 lbs becomes 0.9 lbs). 
+Add the weights together to obtain the total accessory weight.
+NOTE: Remember to include all attaching hardware and any required fluids added, as well as the
+accessories themselves.
+Using the same 2018 Outlander (weights shown are for example only):
+/C0068Accessory Tow hitch: 56.0 lbs
+/C0068Accessory Trailer tow wire harness: 1.1 lbs
+/C0068Roof Rack Crossbars: 13.35 lbs
+/C0068Cargo Mat: 0.9 lbs
+/C0068Rear Seat Entertainment Display: 10.8 lbs
+/C0068Wheel Locks: 0.9 lbs
+T otal Weight Added: 83.1 lbs
+/C0034
+/C0034
+/C0034
+/C0034
+/C0034
+/C0034
+Page 3 of 3
+TSB−18−00−003
+b. After installing accessories, weigh all components (including hardware) removed from the vehicle
+and no longer used. Calculate the weight.
+Standard Lug Nuts: 0.45 lbs
+Weight Removed: 0.45 lbs
+c. Calculate net weight added to the vehicle by subtracting weight removed from weight added.
+83.1 lbs. — 0.45 = 82.7 lbs (rounded up to next 0.1 lbs) 
+Using this example, the net weight of accessories added to the vehicle is greater than the weight
+threshold, so a Load Carrying Capacity Reduced label must be installed showing the capacity has
+been reduced by 82.7 lbs (37.5 kg).
+NOTE: If the total net weight of accessories is more than 1.5% of the vehicle's gross vehicle weight rating
+(GVWR), or the accessories weigh 100 lbs or more, then a Load Carrying Capacity Reduced label
+MUST be installed.
+3. Apply the Load Carrying Capacity Reduced Label:
+a. Add the weight of accessories from the vehicle
+invoice to the weight of any accessories your
+dealership has added. This weight is to be entered
+on the Load Carrying Capacity Reduced label.
+b. Write the total reduction in load carrying capacity
+(in either lbs or kg) with a permanent, fine tipped,
+marking pen. Draw a line through the unused
+weight unit of measure (lbs or kg).
+Weight 
+Reduction
+Label
+Tire and Loading
+Information
+Label
+2018 Outlander Shown for Example ONLY c. Affix the weight reduction label to the vehicle.
+/C0068Apply the label in the driver's door jamb, within
+25 mm (approx. 1 inch) of the Tire and Loading
+Information label. 
+If a label is already in place due to port installed
+accessories, apply your label displaying the
+combined weight of the port installed and
+dealer installed accessories over any existing
+label.
+/C0068At the time of sale, the customer must be
+informed of a reduction in the vehicle's load
+carrying capacity, and be shown the label
+indicating the amount of reduction.
+PARTS INFORMATION
+Use the following Mitsubishi label:
+Part # Description Qty.
+FD317 Label, Vehicle GVWR Reduction - Sheet of 10 labels 1 label per vehicle
+WARRANTY
+This TSB provides accessory installation information only. Warranty procedures do not apply.

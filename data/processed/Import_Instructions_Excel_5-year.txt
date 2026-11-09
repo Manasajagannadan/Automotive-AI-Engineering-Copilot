@@ -1,0 +1,302 @@
+Importing Complaints data (5-year) into MS Excel 
+Last Updated: May 2021 Page 1 of 9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Note: For consistency the generic file names COMPLAINTS_RECEIVED and 
+CMPL are used throughout these instructions. Replace these with the actual file 
+name of the 5-year set being downloaded, e.g., 
+COMPLAINTS_RECEIVED_1995-1999 or CMPL_1995-1999, as appropriate. 
+ 
+Go to the following URL: 
+ 
+https://www-odi.nhtsa.dot.gov/downloads/index.cfm 
+ 
+ 
+ 
+1. Select the COMPLAINTS_RECEIVED.zip file. 
+ 
+2. Save the file to your Downloads folder or another destination folder on your 
+system. 
+ 
+ 
+1 The PDF version of this docum ent is located at 
+http://www-odi.nhtsa.dot.gov/downloads/folders/Complaints/Import_Instructions_Excel_5-year.pdf 
+Follow these instructions1 to download the Office of Defects Investigation (ODI) 
+Complaints data (5-year) and import them into Microsoft Excel. ODI Complaints 
+data are available in the compressed data (ZIP) format on the ODI web site. 
+ 
+The system characteristics of the target machine will affect the speed and 
+performance of the processing needed to accomplish the downloading and 
+importing of the Complaints data. 
+ 
+Detailed field descriptions of the data file are given in Appendix A. 
+Importing Complaints data (5-year) into MS Excel 
+Last Updated: May 2021 Page 2 of 9 
+ 
+ 
+3. Extract the zipped file (CMPL.txt) to the desired folder. 
+ 
+Note: The unzipped text file of Complaints data is now ready to be imported into 
+a Microsoft Excel workbook. 
+ 
+4. Open Microsoft Excel. 
+ 
+ 
+ 
+Note: The following screenshots are from Microsoft Excel 2016. Other 
+versions will have similar views and functionality, but may have differing 
+features and limitations. Use the toolbars or help feature if you have difficulty 
+locating or using a function. 
+ 
+5. Open a Blank workbook. 
+ 
+ 
+ 
+6. Open the Text Import Wizard by selecting Data > Get External Data > 
+From Text. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Importing Complaints data (5-year) into MS Excel 
+Last Updated: May 2021 Page 3 of 9 
+ 
+ 
+ 
+ 
+ 
+7. Locate and select the CMPL.txt file that was extracted from the downloaded 
+.zip file. 
+ 
+8. In the Text Import Wizard – Step 1 of 3 select Delimited and make sure 
+that Start import at row is set to 1 and then select Next >. 
+ 
+ 
+
+Importing Complaints data (5-year) into MS Excel 
+Last Updated: May 2021 Page 4 of 9 
+ 
+ 
+ 
+9. In the Text Import Wizard – Step 2 of 3 make sure that only Tab is 
+selected under Delimiters and then select Next >. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Importing Complaints data (5-year) into MS Excel 
+Last Updated: May 2021 Page 5 of 9 
+ 
+ 
+ 
+10. In the Text Import Wizard – Step 3 of 3 select Finish to import all of the 
+data as is. If you wish to reformat or skip importing any of the columns, make 
+those changes before selecting Finish. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Importing Complaints data (5-year) into MS Excel 
+Last Updated: May 2021 Page 6 of 9 
+ 
+ 
+ 
+11. In the Import Data window select OK to import the data at the beginning of 
+the current worksheet. If a different location is desired, make that selection 
+before selecting OK. 
+ 
+ 
+ 
+ 
+12. Importing the data can take a minute or more, depending on system 
+characteristics. A portion of the worksheet is shown below. 
+ 
+ 
+ 
+ 
+13. Use the Excel Save As function to Save the import with a meaningful 
+filename, such as NHTSA Consumer Complaints 1995-1999.xlsx, in the 
+desired folder. 
+ 
+ 
+
+Importing Complaints data (5-year) into MS Excel 
+Last Updated: May 2021 Page 7 of 9 
+ 
+ 
+ 
+14. Close Excel after saving the data. 
+This concludes the import process. You can now view all the data in the Excel 
+workbook .
+Last Updated: May 2021 Page 8 of 9 
+ 
+ 
+ 
+Appendix A. Complaints File Characteristics 
+ 
+ 
+Field# Name Type/Size Description 
+------ --------- --------- -------------------------------------- 
+1 CMPLID CHAR(9) NHTSA'S INTERNAL UNIQUE SEQUENCE NUMBER. 
+ IS AN UPDATEABLE FIELD,THUS DATA FOR A 
+ GIVEN RECORD POTENTIALLY COULD CHANGE FROM 
+ ONE DATA OUTPUT FILE TO THE NEXT. 
+2 ODINO CHAR(9) NHTSA'S INTERNAL REFERENCE NUMBER. 
+ THIS NUMBER MAY BE REPEATED FOR 
+ MULTIPLE COMPONENTS. 
+ ALSO, IF LDATE IS PRIOR TO DEC 15, 2002, 
+ THIS NUMBER MAY BE REPEATED FOR MULTIPLE 
+ PRODUCTS OWNED BY THE SAME COMPLAINANT. 
+3 MFR_NAME CHAR(40) MANUFACTURER'S NAME 
+4 MAKETXT CHAR(25) VEHICLE/EQUIPMENT MAKE 
+5 MODELTXT CHAR(256) VEHICLE/EQUIPMENT MODEL 
+6 YEARTXT CHAR(4) MODEL YEAR, 9999 IF UNKNOWN or N/A 
+7 CRASH CHAR(1) WAS VEHICLE INVOLVED IN A CRASH, 'Y' OR 'N' 
+8 FAILDATE CHAR(8) DATE OF INCIDENT (YYYYMMDD) 
+9 FIRE CHAR(1) WAS VEHICLE INVOLVED IN A FIRE 'Y' OR 'N' 
+10 INJURED NUMBER(2) NUMBER OF PERSONS INJURED 
+11 DEATHS NUMBER(2) NUMBER OF FATALITIES 
+12 COMPDESC CHAR(128) SPECIFIC COMPONENT'S DESCRIPTION 
+13 CITY CHAR(30) CONSUMER'S CITY 
+14 STATE CHAR(2) CONSUMER'S STATE CODE 
+15 VIN CHAR(11) VEHICLE'S VIN# 
+16 DATEA CHAR(8) DATE ADDED TO FILE (YYYYMMDD) 
+17 LDATE CHAR(8) DATE COMPLAINT RECEIVED BY NHTSA (YYYYMMDD) 
+18 MILES NUMBER(7) VEHICLE MILEAGE AT FAILURE 
+19 OCCURENCES NUMBER(4) NUMBER OF OCCURRENCES 
+20 CDESCR CHAR(2048) DESCRIPTION OF THE COMPLAINT 
+21 CMPL_TYPE CHAR(4) SOURCE OF COMPLAINT CODE: 
+ CAG =CONSUMER ACTION GROUP 
+ CON =FORWARDED FROM A CONGRESSIONAL OFFICE 
+ DP =DEFECT PETITION,RESULT OF A DEFECT 
+ PETITION 
+ EVOQ =HOTLINE VOQ 
+ EWR =EARLY WARNING REPORTING 
+ INS =INSURANCE COMPANY 
+ IVOQ =NHTSA WEB SITE 
+ LETR =CONSUMER LETTER 
+ MAVQ =NHTSA MOBILE APP 
+ MIVQ =NHTSA MOBILE APP 
+ MVOQ =OPTICAL MARKED VOQ 
+ RC =RECALL COMPLAINT,RESULT OF A RECALL 
+ INVESTIGATION 
+ RP =RECALL PETITION,RESULT OF A RECALL 
+ PETITION 
+ SVOQ =PORTABLE SAFETY COMPLAINT FORM (PDF) 
+ VOQ =NHTSA VEHICLE OWNERS QUESTIONNAIRE 
+22 POLICE_RPT_YN CHAR(1) WAS INCIDENT REPORTED TO POLICE 'Y' OR 'N' 
+23 PURCH_DT CHAR(8) DATE PURCHASED (YYYYMMDD) 
+24 ORIG_OWNER_YN CHAR(1) WAS ORIGINAL OWNER 'Y' OR 'N' 
+25 ANTI_BRAKES_YN CHAR(1) ANTI-LOCK BRAKES 'Y' OR 'N' 
+26 CRUISE_CONT_YN CHAR(1) CRUISE CONTROL 'Y' OR 'N' 
+27 NUM_CYLS NUMBER(2) NUMBER OF CYLINDERS 
+28 DRIVE_TRAIN CHAR(4) DRIVE TRAIN TYPE [AWD,4WD,FWD,RWD] 
+ 
+ 
+ 
+ 
+Last Updated: May 2021 Page 9 of 9 
+ 
+ 
+29 FUEL_SYS CHAR(4) FUEL SYSTEM CODE: 
+ FI =FUEL INJECTION 
+ TB =TURBO 
+30 FUEL_TYPE CHAR(4) FUEL TYPE CODE: 
+ BF =BIFUEL 
+ CN =CNG/LPG 
+ DS =DIESEL 
+ GS =GAS 
+ HE =HYBRID ELECTRIC 
+31 TRANS_TYPE CHAR(4) VEHICLE TRANSMISSION TYPE [AUTO, MAN] 
+32 VEH_SPEED NUMBER(3) VEHICLE SPEED 
+33 DOT CHAR(20) DEPARTMENT OF TRANSPORTATION TIRE IDENTIFIER 
+34 TIRE_SIZE CHAR(30) TIRE SIZE 
+35 LOC_OF_TIRE CHAR(4) LOCATION OF TIRE CODE: 
+ FSW =DRIVER SIDE FRONT 
+ DSR =DRIVER SIDE REAR 
+ FTR =PASSENGER SIDE FRONT 
+ PSR =PASSENGER SIDE REAR 
+ SPR =SPARE 
+36 TIRE_FAIL_TYPE CHAR(4) TYPE OF TIRE FAILURE CODE: 
+ BST =BLISTER 
+ BLW =BLOWOUT 
+ TTL =CRACK 
+ OFR =OUT OF ROUND 
+ TSW =PUNCTURE 
+ TTR =ROAD HAZARD 
+ TSP =TREAD SEPARATION 
+37 ORIG_EQUIP_YN CHAR(1) WAS PART ORIGINAL EQUIPMENT 'Y' OR 'N' 
+38 MANUF_DT CHAR(8) DATE OF MANUFACTURE (YYYYMMDD) 
+39 SEAT_TYPE CHAR(4) TYPE OF CHILD SEAT CODE: 
+ B =BOOSTER 
+ C =CONVERTIBLE 
+ I =INFANT 
+ IN =INTEGRATED 
+ TD =TODDLER 
+40 RESTRAINT_TYPE CHAR(4) INSTALLATION SYSTEM CODE; 
+ A =VEHICLE SAFETY BELT 
+ B =LATCH SYSTEM 
+41 DEALER_NAME CHAR(40) DEALER'S NAME 
+42 DEALER_TEL CHAR(20) DEALER'S TELEPHONE NUMBER 
+43 DEALER_CITY CHAR(30) DEALER'S CITY 
+44 DEALER_STATE CHAR(2) DEALER'S STATE CODE 
+45 DEALER_ZIP CHAR(10) DEALER'S ZIPCODE 
+46 PROD_TYPE CHAR(4) PRODUCT TYPE CODE: 
+ V =VEHICLE 
+ T =TIRES 
+ E =EQUIPMENT 
+ C =CHILD RESTRAINT 
+47 REPAIRED_YN CHAR(1) WAS DEFECTIVE TIRE REPAIRED 'Y' OR 'N' 
+48 MEDICAL_ATTN CHAR(1) WAS MEDICAL ATTENTION REQUIRED 'Y' OR 'N' 
+49 VEHICLES_TOWED_YN CHAR(1) WAS VEHICLE TOWED 'Y' OR 'N'

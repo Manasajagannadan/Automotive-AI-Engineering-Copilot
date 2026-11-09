@@ -1,0 +1,37 @@
+[
+  {
+    "question": "What is the accessory weight threshold for the Load Carrying Capacity Reduced label?",
+    "expected_source_keywords": ["Mitsubishi", "accessory", "GVWR"],
+    "expected_answer_keywords": ["1.5", "GVWR", "100"]
+  },
+  {
+    "question": "When is the Load Carrying Capacity Reduced label required?",
+    "expected_source_keywords": ["label", "accessories", "GVWR"],
+    "expected_answer_keywords": ["label", "accessories", "sold"]
+  },
+  {
+    "question": "When is the Load Carrying Capacity Reduced label not required?",
+    "expected_source_keywords": ["label", "dealer", "accessories"],
+    "expected_answer_keywords": ["not required", "dealer", "sold"]
+  },
+  {
+    "question": "Who is responsible for calculating the total weight of accessories installed before the first retail sale?",
+    "expected_source_keywords": ["dealer", "accessories", "NHTSA"],
+    "expected_answer_keywords": ["dealer", "calculate", "weight"]
+  },
+  {
+    "question": "What must a dealer do when additional accessories are installed?",
+    "expected_source_keywords": ["dealer", "accessories", "label"],
+    "expected_answer_keywords": ["calculations", "label", "affix"]
+  },
+  {
+    "question": "Which vehicles are affected by this Mitsubishi Technical Service Bulletin?",
+    "expected_source_keywords": ["affected", "vehicles", "models"],
+    "expected_answer_keywords": ["U.S.", "models", "accessories"]
+  },
+  {
+    "question": "What information does MMNA provide for port-installed accessories?",
+    "expected_source_keywords": ["MMNA", "port", "accessories"],
+    "expected_answer_keywords": ["weight", "invoice", "Monroney"]
+  }
+]
